@@ -3,8 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="styles.css">
 	  <!-- aca esta el codigo para importar la fuente de googlefonts-->
 	  <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,10 +32,72 @@
 		<p id="gameTitle">
 			Rift Saviours
 		</p>
-		<video id="gameVideo" tabindex="-1" class="video-stream html5-main-video" controlslist="nodownload" src="blob:https://youtube.googleapis.com/fd739a7d-8fda-402e-8232-7f2e04f5715c"></video>
-		<p id="gameDescription">Rift saviours is an action roguelite</p>
+		<p id="gameDescription">
+			First Trailer (old)
+		</p>
+		<iframe id="gameVideo" controlslist="nodownload" src="https://www.youtube.com/embed/uJdku6eQxOA?si=UceaARRHEa8kwHca" allow="autoplay"></iframe>
+		<p id="gameDescription">
+			Combat Gameplay Demo (up to date)
+		</p>
+		<iframe id="gameVideo" controlslist="nodownload" src="https://www.youtube.com/embed/-bdSqGbIVyk?si=y9i7SID74UPilUtM" allow="autoplay"></iframe>
+		<p id="gameDescription">Rift saviours is an action roguelite in which defend yourself with swords against endless hordes of enemies in an arena with a wave based progression system</p>
+		<p id="gameDescription"> What I've learned: 
+			<ul>
+				<li>Scoping a project</li>
+				<li>Melee combat programming</li>
+				<li>Crafting & store system</li>
+				<li>Optimizing a game and good practices</li>
+				<li>Shaders basics</li>
+				<li>Publishing a game on steam</li>
+				<li>So much more!</li>
+			</ul>
+		</p>
+		<button type="button" onclick="open('https://store.steampowered.com/app/2563780/Rift_Saviours/','_blank','')">Steam page</button>
 	</div>
+	<div class="GameDiv">
+		<p id="gameTitle">
+			Airplane 2042
+		</p>
+		<iframe id="gameVideo" controlslist="nodownload" src= "https://drive.google.com/file/d/13vPAHXTbW5sjwxxd3F1AbvhZed2FBNCO/preview" allow="autoplay"></iframe>
+		<p id="gameDescription">An homage to one of my favourite arcade games, 1942</p>
+		<p id="gameDescription"> What I've learned: 
+			<ul>
+				<li>Prototyping</li>
+				<li>Advanced Object Pooling</li>
+				<li>Building an upgrade System</li>
+				<li>Basic modular enemy AI</li>
+				<li>Social media marketing basics</li>
+			</ul>
+		</p>
+		<button type="button" onclick="open('https://yyakodev.itch.io/airplane-2042','_blank','')">Play on your browser!</button>
+	</div>
+	<div class="GameDiv">
+		<p id="gameTitle">
+			Stars' Trial
+		</p>
+		<iframe id="gameVideo" controlslist="nodownload" src= "https://drive.google.com/file/d/1r9y-kf2t2o5Ckcsgy4rynratrftSiAe_/preview" allow="autoplay"></iframe>
+		<p id="gameDescription">My first jam game, made in 3 days</p>
+		<p id="gameDescription"> What I've learned: 
+			<ul>
+				<li>2.5D Sprite billboarding</li>
+				<li>Working under time pressure</li>
+				<li>3D Terrain Generation</li>
+				<li>UI Dialogue System</li>
+				<li>Quickly outlining a game idea and underscoping it</li>
+			</ul>
+		</p>
+		<button type="button" onclick="open('https://yyakodev.itch.io/starss-trial','_blank','')">Itch.io page</button>
+	</div>
+	<div class="GameDiv">
+		<p id="gameTitle">
+			Other games
+		</p>
+		<button type="button" onclick="open('https://yyakodev.itch.io/','_blank','')">Itch.io</button>
+	</div>
+
+
 	<div id="separation"></div>
+
 	<div id="Contact">
 		<h2>Contact me!</h2>
 		<ul id="text">
