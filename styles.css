@@ -1,3 +1,9 @@
+*
+{
+	box-sizing: border-box;
+	font-family: 'Alata', sans-serif;
+}
+
 h1, h2
 {
 	font-family: Climate Crisis, cursive;
@@ -6,12 +12,18 @@ h1, h2
 	color: rgb(83, 231, 128);
 	text-align: center;
 	outline-color: invert;
+
 	outline-width: 12px;
+	border-color: aliceblue;
+	border: thick;
+	border-radius: 50px;
 	outline: auto;
 	outline-style: auto;
 	mask-image: linear-gradient(black, black, transparent);
 	display: block;
 	font-display: initial;
+	text-shadow: -4px 5px 0px rgb(82, 29, 61);
+	
 }
 h2
 {
@@ -22,12 +34,14 @@ h2
 	font-weight: bold;
 	text-decoration: underline;
 	text-underline-offset: 5px;
+	text-shadow: none;
 }
-p
+p, #text
 {
 	font-family: 'Alata', sans-serif;
     font-size: 20px;
     font-weight: normal;
+	font-style: normal;
     color: rgb(233, 233, 233);
 	text-align: center;
 }
@@ -67,7 +81,7 @@ body
 	margin-bottom: 25px;
 	outline-color: rgb(83, 231, 128);
 	outline: auto;
-	outline-style: auto;
+	outline-style: initial;
 	outline-width: 100px;
 	mask-image: linear-gradient(black, black, transparent);
 	
@@ -78,4 +92,111 @@ body
 	height: 50px;
 	display: inline;
 	margin: auto;
+}
+
+tinypp
+{
+    font-style: bold;
+	font-size: 17px;
+	mask-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgba(255, 255, 255, 0.89), rgba(255, 255, 255, 0.616), transparent);
+	mask-mode: alpha;
+	
+}
+
+#smallMargin
+{
+	margin: 10px;
+}
+#separation
+{
+	margin: 100px;
+}
+
+.GameDiv
+{
+	display: block;
+	background-color: rgba(90, 82, 88, 0.219);
+	border-radius: 1px;
+	border-left: 5px;
+	border-style: solid;
+	border-color: rgba(255, 92, 247, 0.315);
+	mask-position: -55px, -25px;
+	mask-repeat: repeat;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#gameTitle
+{
+	padding-left: 30px;
+	font-family: 'Alata', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(233, 233, 233);
+	text-decoration: underline;
+	text-underline-offset: 4px;
+	text-decoration-color: rgb(83, 231, 128);
+	text-transform: uppercase;
+	mask-image: linear-gradient(black, black, black, black,transparent);
+}
+
+#gameVideo
+{
+	padding-left: 20px;
+	padding-bottom: 20px;
+	display: block;
+	margin: auto;
+	width: 480px;
+	height: 270px;
+}
+#gameDescription
+{
+	padding-left: 20px;
+	font-family: 'Alata', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: rgb(233, 233, 233);
+	text-align: center;
+}
+
+#Contact
+{
+	background-color: rgba(90, 82, 88, 0.219);
+	border-color: aliceblue;
+	border-radius: 5px;
+	margin: 10%;
+	padding: 5px;
+}
+
+li
+{
+	font-family: 'Alata', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(233, 233, 233);
+	text-align: center;
+}
+
+button
+{
+	font-family: 'Alata', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	background-color: rgb(83, 231, 128);
+	border-color: rgb(83, 231, 128);
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	
+}
+button:hover
+{
+	background-color: rgb(0, 0, 0);
+	border-color: rgb(83, 231, 128);
+	color: rgb(83, 231, 128);
 }
