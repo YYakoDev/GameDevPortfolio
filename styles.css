@@ -172,6 +172,16 @@ tinypp
 	padding: 5px;
 }
 
+#inlineVideo
+{
+	display: inline-block;
+	margin: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	max-width: 95%;
+	border-color: rgb(98, 42, 151);
+}
+
 li
 {
 	font-family: 'Alata', sans-serif;
