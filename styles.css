@@ -105,11 +105,19 @@ tinypp
 
 #smallMargin
 {
-	margin: 10px;
+	margin: 20px;
 }
 #separation
 {
 	margin: 100px;
+}
+
+#Presentation
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .GameDiv
@@ -184,7 +192,7 @@ tinypp
 	margin-left: 15px;
 	margin-right: 5px;
 	min-width: 20%;
-	max-width: 95%;
+	max-width: 45%;
 	border-color: rgb(98, 42, 151);
 }
 
@@ -232,7 +240,5 @@ button:hover
 
 #Skills
 {
-	display: inline-flex;
-	padding: 50px;
-	margin: 10px;
+	display: inline-flexbox;
 }
