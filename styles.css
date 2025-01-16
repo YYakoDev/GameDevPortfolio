@@ -130,8 +130,8 @@ tinypp
 	border-color: rgba(255, 92, 247, 0.315);
 	mask-position: -55px, -25px;
 	mask-repeat: repeat;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
 	padding-bottom: 15px;
 }
 
@@ -167,12 +167,13 @@ tinypp
 #gameDescription
 {
 	font-family: 'Alata', sans-serif;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: normal;
 	color: rgb(233, 233, 233);
 	text-align: center;
-	margin-left: 60px;
-	margin-right: 60px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 5px;
 }
 
 #Contact
@@ -187,13 +188,16 @@ tinypp
 
 #inlineVideo
 {
-	display: inline-flex;
-	margin: auto;
-	margin-left: 15px;
-	margin-right: 5px;
+	display: -webkit-inline-flex;
+	margin-left: 8%;
+	margin-right: 2%;
 	min-width: 20%;
 	max-width: 45%;
 	border-color: rgb(98, 42, 151);
+	border-radius: 50px;
+	align-items:stretch;
+	width: fit-content;
+
 }
 
 li
