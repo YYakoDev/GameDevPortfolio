@@ -20,14 +20,15 @@
 	<img src="Images/icon2.png" alt="YYako's Avatar" id="icon">
 	<h1 id="smallMargin">YYako</h1>
 	<h2 id="smallMargin">Game Developer</h2>
-	<p>Hey!, I'm YYako a solo game developer focused on being a generalist or a gameplay programmer
-		here are some of my projects and games that I've made, I hope you enjoy them!
-		<tinypp>(All that you see is made by me, including the art assets and every sound)</tinypp>
+	<p>Hey! I'm YYako a game developer focused on being a generalist on its own personal projects and gameplay/systems programmer on professional work
+		in this page are projects that I have worked on that deserve the spot, I hope you enjoy them!
+		<tinypp>(Everything that you see on my personal projects is made by me, including the art assets and every sound)</tinypp>
 	</p>
 	<button type="button" 
 		onclick="document.getElementById('Contact').scrollIntoView()">
 		Contact me!
 	</button>
+	<div id="Skills">
 	<h2>Core Skills</h2>
 	<ul>
 		<li>Gameplay Programming</li>
@@ -36,22 +37,68 @@
 	</ul>
 	<h2>Other Knowledge</h2>
 	<h3 style="color: rgba(255, 255, 255, 0.836); font-style: normal; text-align: center; word-spacing: 10px;">C# JavaScript Python Unity Photoshop VideoEditing PixelArt</h3>
+	</div>
 	<h2></h2>
-	<h2>Projects</h2>
+	<h2>Profesional Work</h2>
+	<div class="GameDiv" id="Work">
+		<p id="gameTitle" style="font-size: 32px;">
+			Lead Programmer - Project Extinguish
+		</p>
+		<div id="">			
+			<iframe id="gameVideo" controlslist="nodownload" src="https://drive.google.com/file/d/11kChGT2aU3MCrxPiVWPf91qyucaI-8gT/preview" allow="autoplay"></iframe>
+		</div>
+		
+		<p id="gameDescription"> 
+			Worked for 6 months on this project (Finished my task on December), the company assigned to me the role of leading the programming team of 4 people, managing the tasks on Jira, coordinating meetings
+			and comunicating both the client to us, the developers. 
+		</p>
+		<p id="gameDescription"> What I've learned: 
+			<ul>
+				<li>Leading a team and improving comunication between all parts</li>
+				<li>Working under tight deadlines</li>
+				<li>Improved my code structure and design patterns knowledge</li>
+				<li>How to use git on another level, dealing with conflics not present in tiny projects</li>
+				<li>Planning weekly build deliveries integrating the whole work of the team</li>
+				<li>Improved my problem-solving skills</li>
+				<li>Coding: Terrain Generation - Save System with JSON - World map and minimap system - Optimization techniques</li>
+				<li>Shaders: Implemented basic fog of war and grid system using GPU instancing and custom shader functions</li>
+				<li>Tools used: Jira - Trello - GitHub - Spine - Rider - Unity 6 - Unity's ShaderGraph</li>
+			</ul>
+		</p>
+	</div>
+	<div class="GameDiv" id="Work">
+		<p id="gameTitle" style="font-size: 32px;">
+			Gameplay Programmer - Eden Lost
+		</p>
+		<div id="">			
+			<iframe id="gameVideo" controlslist="nodownload" src="https://drive.google.com/file/d/1lMZc5TqzPJdGWd--0_0BHE8fVx8R2ttT/preview" allow="autoplay"></iframe>
+		</div>
+		
+		<p id="gameDescription"> 
+			Hired as the only programmer. My task was to deliver a vertical slice of the game on a scrict deadline. 
+			Started on September 2024. Project was paused by the client on January.
+		</p>
+		<p id="gameDescription"> What I've learned: 
+			<ul>
+				<li>Combat system - Weapon Manager</li>
+				<li>Targetting system (Being able to lock the camera onto an enemy and switching between them)</li>
+				<li>Working with Plastic SCM (now called Unity Version Control)</li>
+				<li>3D Workflow</li>
+				<li>Working with an already existing large codebase to integrate my systems</li>
+				<li>Improved my understanding of the Unity Engine, avoiding common pitfals and rewritting systems when necessary (i.e moving into a custom approach of physics system but still using Unity as a base)</li>
+				<li>Tools used: Plastic SCM - Unity 5 - Rider - Clockify - Time Doctor - Quantum Console Package</li>
+			</ul>
+		</p>
+		</div>
+	<h2>Personal Projects</h2>
 	<div class="GameDiv">
-		<p id="gameTitle">
+		<p id="gameTitle" style="font-size: 32px;">
 			Rift Saviours
 		</p>
 		<div id="inlineVideo">			
-			<p id="gameDescription">
-				<b>Trailer</b>
-			</p>
 			<iframe id="gameVideo" controlslist="nodownload" src="https://www.youtube.com/embed/uJdku6eQxOA?si=UceaARRHEa8kwHca" allow="autoplay"></iframe>
 		</div>
 		<div id="inlineVideo">
-			<p id="gameDescription">
-				<b>Combat Gameplay Demo (up to date)</b>
-			</p>
 			<iframe id="gameVideo" controlslist="nodownload" src="https://www.youtube.com/embed/-bdSqGbIVyk?si=y9i7SID74UPilUtM" allow="autoplay"></iframe>
 		</div>
 		
@@ -61,13 +108,15 @@
 				<li>Scoping a project</li>
 				<li>Melee combat programming</li>
 				<li>Crafting & store system</li>
+				<li>Procedural level generation</li>
+				<li>A* PathFinding</li>
+				<li>Unity's new input system</li>
 				<li>Optimizing a game and good practices</li>
 				<li>Shaders basics</li>
-				<li>Publishing a game on steam</li>
+				<li>Publishing a game on steam by myself</li>
 				<li>So much more!</li>
-			</ul>
 		</p>
-		<button type="button" onclick="open('https://store.steampowered.com/app/2563780/Rift_Saviours/','_blank','')">Steam page</button>
+		<button type="button" id="SteamButton" onclick="open('https://store.steampowered.com/app/2563780/Rift_Saviours/','_blank','')">Steam page</button>
 	</div>
 	<div class="GameDiv">
 		<p id="gameTitle">
@@ -79,6 +128,7 @@
 			<ul>
 				<li>Prototyping</li>
 				<li>Advanced Object Pooling</li>
+				<li>Baseline for boss fights</li>
 				<li>Building an upgrade System</li>
 				<li>Basic modular enemy AI</li>
 				<li>Social media marketing basics</li>

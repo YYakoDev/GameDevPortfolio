@@ -27,7 +27,7 @@ h1, h2
 }
 h2
 {
-	font-size: 28px;
+	font-size: 35px;
 	mask-image: linear-gradient(black, black, black,transparent);
 	outline: none;
 	font-family: 'Alata', sans-serif;
@@ -127,6 +127,11 @@ tinypp
 	padding-bottom: 15px;
 }
 
+#Work
+{
+	border-color: rgb(83, 231, 128);
+}
+
 #gameTitle
 {
 	font-family: 'Alata', sans-serif;
@@ -154,7 +159,7 @@ tinypp
 #gameDescription
 {
 	font-family: 'Alata', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: normal;
 	color: rgb(233, 233, 233);
 	text-align: center;
@@ -174,10 +179,11 @@ tinypp
 
 #inlineVideo
 {
-	display: inline-block;
+	display: inline-flex;
 	margin: auto;
-	margin-left: 5px;
+	margin-left: 15px;
 	margin-right: 5px;
+	min-width: 20%;
 	max-width: 95%;
 	border-color: rgb(98, 42, 151);
 }
@@ -217,4 +223,16 @@ button:hover
 	border-color: rgb(83, 231, 128);
 	color: rgb(83, 231, 128);
 	cursor: pointer;
+}
+
+#SteamButton
+{
+	margin-left: 38%
+}
+
+#Skills
+{
+	display: inline-flex;
+	padding: 50px;
+	margin: 10px;
 }
