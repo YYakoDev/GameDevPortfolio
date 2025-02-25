@@ -55,6 +55,25 @@ body
 	background-repeat: repeat;*/
 }
 
+img
+{
+	width: 40%;
+	height: 20%;
+	margin-left: 5%;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	border-radius: 50px;
+	border-color: rgb(83, 231, 128);
+	border-style: solid;
+	border-width: 5px;
+	mask-image: linear-gradient(black, black,black, transparent);
+	object-fit: contain;
+	object-position: center;
+	display: flexbox;
+	justify-content: center;
+}
+
 @media only screen and (max-width: 600px){
     h1
     {
@@ -153,16 +172,22 @@ tinypp
 	text-transform: uppercase;
 	mask-image: linear-gradient(black, black, black, black,transparent);
 }
+#app
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
 #gameVideo
 {
-	display: block;
+	flex: 0 0 40%;
 	margin: auto;
-	width: 480px;
+	width: 450px;
 	height: 270px;
-	max-width: 95%;
 	border-color: rgb(98, 42, 151);
 	border-radius: 50px;
+	justify-content: center;
 }
 #gameDescription
 {
