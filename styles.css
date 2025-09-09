@@ -27,7 +27,7 @@ h1, h2
 }
 h2
 {
-	font-size: 35px;
+	font-size: 38px;
 	mask-image: linear-gradient(black, black, black,transparent);
 	outline: none;
 	font-family: 'Alata', sans-serif;
@@ -39,7 +39,7 @@ h2
 p, #text
 {
 	font-family: 'Alata', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: normal;
 	font-style: normal;
     color: rgb(233, 233, 233);
@@ -192,7 +192,7 @@ tinypp
 #gameDescription
 {
 	font-family: 'Alata', sans-serif;
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: normal;
 	color: rgb(233, 233, 233);
 	text-align: center;
